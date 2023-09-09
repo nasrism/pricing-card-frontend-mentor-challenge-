@@ -1,0 +1,128 @@
+html{
+  box-sizing:border-box;
+  background-color:#E7EFF7;
+font-family: 'Karla';
+font-size:16px;
+  font-weight:400;
+}
+
+body{
+  padding: 20px;
+}
+h2,h4,p {
+  margin:0;
+}
+
+*{
+  box-sizing:inherit;
+}
+
+#card{
+width:600px;
+height:400px;
+box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.35);
+border-radius: 10px;
+overflow:hidden;
+}
+
+#top{
+  width:100%;
+  height:45%;
+  background-color:#FEFFFE;
+}
+
+#top h2{
+  color:#2AB2B1;
+  margin-bottom:20px;
+}
+
+#top h4{
+  color:hsl(71, 73%, 54%);
+  margin-bottom:10px;
+}
+
+#top p{
+  color:hsl(218, 22%, 67%);
+}
+
+#left, #right, #top{
+  padding:25px;
+}
+
+#bottom{
+  display:flex;
+  width:100%;
+  height:55%;
+}
+
+#left, #right{
+  flex:50%;
+  height:100%;
+  color:#FEFFFE;
+}
+
+#left{
+  background-color:#2AB2B1;
+}
+
+#left h4{
+margin-bottom:25px;  
+}
+
+
+
+#right{
+  background-color:#4EBFB4;
+}
+.price{
+  font-weight:700;
+  font-size:1.4rem;
+  padding-right:10px;
+}
+
+.perM, .price{
+  display: inline-block;
+}
+
+.perM{
+  position:relative;
+  top:-4px;
+  font-size: 0.8rem;
+  opacity:0.6;
+}
+
+.full{
+  font-size:0.9rem;
+  opacity:0.8;
+  padding-top:10px;
+  margin-bottom:25px;
+}
+
+button{
+  width: 100%;
+  padding:15px;
+  color:#FEFFFE;
+  background-color:hsl(71, 73%, 54%);
+  border: none;
+box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.35);
+border-radius: 5px;
+overflow:hidden;
+}
+
+button:hover {
+  cursor:pointer;
+  background-color:#A9C42D;
+  transform: scale(1.03);
+}
+
+#right h4{
+  margin-bottom:25px;
+ 
+}
+
+ul{
+padding:0px;
+list-style:none;
+font-size:0.8rem;
+opacity:0.8;
+}

@@ -126,19 +126,3 @@ list-style:none;
 font-size:0.8rem;
 opacity:0.8;
 }
-
-
-@media (max-width: 650px){
-  #bottom{
-  display:inline;
-}
-  
-#left, #right{
-  width:100%;
-}
-  
-  #card{
-width:auto;
-height:auto;
-}
-}
